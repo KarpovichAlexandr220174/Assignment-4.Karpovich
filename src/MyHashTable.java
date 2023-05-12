@@ -38,14 +38,14 @@ public class MyHashTable<K, V> {
     }
 
     public void put(K key, V value) {
-        int i = hash(key);
+        int index = hash(key);
         HashNode<K, V> node = new HashNode<K, V>(key, value);
 
-        if (chainArray[i] == null) {
-            chainArray[i] = node;
+        if (chainArray[index] == null) {
+            chainArray[index] = node;
             size++;
         } else {
-            HashNode<K, V> currentNode = chainArray[i];
+            HashNode<K, V> currentNode = chainArray[index];
             while (currentNode.next != null) {
                 currentNode = currentNode.next;
             }
@@ -63,11 +63,11 @@ public class MyHashTable<K, V> {
     }
 
     public V get(K key) {
-        int i = hash(key);
-        if (chainArray[i] == null) {
+        int index = hash(key);
+        if (chainArray[index] == null) {
             return null;
         } else {
-            HashNode<K, V> currentNode = chainArray[i];
+            HashNode<K, V> currentNode = chainArray[index];
             if (currentNode.key.equals(key)) {
                 return currentNode.value;
             }
@@ -82,7 +82,30 @@ public class MyHashTable<K, V> {
     }
 
     public V remove(K key) {
-        return null;
+        int index = hash(key);
+        if (chainArray[index] == null) {
+            return null;
+        } else {
+            HashNode<K, V> currentNode = chainArray[index];
+            if (currentNode.key.equals(key)) {
+                chainArray[index] = currentNode.next;
+                size--;
+                return currentNode.value;
+            } else {
+                HashNode<K, V> previousNode = currentNode;
+                currentNode = currentNode.next;
+                while (currentNode != null) {
+                    if (currentNode.key.equals(key)) {
+                        previousNode.next = currentNode.next;
+                        size--;
+                        return currentNode.value;
+                    }
+                    previousNode = currentNode;
+                    currentNode = currentNode.next;
+                }
+                return null;
+            }
+        }
     }
 
     public boolean contains(V value) {
