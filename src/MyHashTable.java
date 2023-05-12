@@ -20,9 +20,11 @@ public class MyHashTable<K, V> {
     private int size;
 
     public MyHashTable() {
+
     }
 
     public MyHashTable(int M) {
+
     }
 
     private int hash(K key) {
@@ -71,6 +73,15 @@ public class MyHashTable<K, V> {
     }
 
     public K getKey(V value) {
+        for (int i = 0; i < M; i++) {
+            HashNode<K, V> node = chainArray[i];
+            while (node != null) {
+                if (node.value.equals(value)) {
+                    return node.key;
+                }
+                node = node.next;
+            }
+        }
         return null;
     }
 }
