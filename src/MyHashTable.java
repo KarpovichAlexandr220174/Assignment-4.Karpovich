@@ -63,13 +63,20 @@ public class MyHashTable<K, V> {
     }
 
     public V get(K key) {
-        int index = hash(key);
-        HashNode<K, V> node = chainArray[index];
-        while (node != null) {
-            if (node.key.equals(key)) {
-                return node.value;
+        int i = hash(key);
+        if (chainArray[i] == null) {
+            return null;
+        } else {
+            HashNode<K, V> currentNode = chainArray[i];
+            if (currentNode.key.equals(key)) {
+                return currentNode.value;
             }
-            node = node.next;
+            while (currentNode != null) {
+                if (currentNode.key.equals(key)) {
+                    return currentNode.value;
+                }
+                currentNode = currentNode.next;
+            }
         }
         return null;
     }
