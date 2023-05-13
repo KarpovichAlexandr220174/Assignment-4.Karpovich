@@ -34,7 +34,7 @@ public class MyHashTable<K, V> {
 
     // Hash function that maps a key to an index in the array
     private int hash(K key) {
-        String strKey = (String) key;
+        String strKey = String.valueOf(key);
         int sum = 0;
         for (int i = 0; i < strKey.length(); i++) {
             sum += strKey.charAt(i);
@@ -64,7 +64,7 @@ public class MyHashTable<K, V> {
         }
 
         // If the load factor exceeds 0.7, double the size of the array and rehash all the elements
-        if (M / size > 0.7) {
+        if (M / size < 0.7) {
             M *= 2;
             HashNode<K, V>[] newChainArray = new HashNode[M];
             for (int j = 0; j < chainArray.length; j++) {
@@ -182,6 +182,27 @@ public class MyHashTable<K, V> {
         }
         // Value was not found in any of the nodes
         return null;
+    }
+
+    public int getBucketSize(int index) {
+        // Check that the index is valid
+        if (index < 0 || index >= chainArray.length) {
+            throw new IllegalArgumentException("Invalid index");
+        }
+
+        // Traverse the chain at the specified index and count the number of nodes
+        int size = 0;
+        HashNode<K, V> currentNode = chainArray[index];
+        while (currentNode != null) {
+            size++;
+            currentNode = currentNode.next;
+        }
+        return size;
+    }
+
+    public int getCapacity() {
+        // Return the length of the chainArray
+        return chainArray.length;
     }
 }
 

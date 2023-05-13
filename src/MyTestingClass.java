@@ -1,33 +1,29 @@
+import java.util.Random;
+
 public class MyTestingClass {
-    private String field1;
-    private int field2;
+    private int x;
+    private int y;
 
-    public MyTestingClass(String field1, int field2) {
-        this.field1 = field1;
-        this.field2 = field2;
+    public MyTestingClass(int x, int y) {
+        this.x = x;
+        this.y = y;
     }
 
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    // Custom hashcode method
+    @Override
     public int hashCode() {
-        int hash = 17;
-        hash = 31 * hash + field1.hashCode();
-        hash = 31 * hash + field2;
-        return hash;
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + x;
+        result = prime * result + y;
+        return result;
     }
-
-    public String getField1() {
-        return field1;
-    }
-
-    public void setField1(String field1) {
-        this.field1 = field1;
-    }
-
-    public int getField2() {
-        return field2;
-    }
-
-    public void setField2(int field2) {
-        this.field2 = field2;
-    }
-
 }
