@@ -159,6 +159,26 @@ public class MyHashTable<K, V> {
         return false;
     }
 
+    public boolean containsKey(K key) {
+        for (int i = 0; i < chainArray.length; i++) {
+            if (chainArray[i] == null) {
+                continue;
+            }
+            HashNode<K, V> currentNode = chainArray[i];
+            if (currentNode.key.equals(key)) {
+                return true;
+            } else {
+                while ((currentNode.next != null)) {
+                    if (currentNode.key.equals(key)) {
+                        return true;
+                    }
+                    currentNode = currentNode.next;
+                }
+            }
+        }
+        return false;
+    }
+
     /**
      * Returns the key associated with the given value.
      *

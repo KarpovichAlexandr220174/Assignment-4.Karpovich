@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c6120827-3362-47f6-8d97-65c1c855291f" name="Changes" comment="Comit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ph3w8QbGwxuFpwyJHRq4EyVNF8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/w2/IdeaProjects/Assignment-4.Karpovich&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6120827-3362-47f6-8d97-65c1c855291f" name="Changes" comment="" />
+      <created>1683895723795</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683895723795</updated>
+      <workItem from="1683895725070" duration="9902000" />
+      <workItem from="1683968317051" duration="6586000" />
+      <workItem from="1683998160316" duration="2385000" />
+      <workItem from="1684257833499" duration="24000" />
+      <workItem from="1684289665879" duration="620000" />
+      <workItem from="1684290310323" duration="55000" />
+      <workItem from="1684290373214" duration="25000" />
+    </task>
+    <task id="LOCAL-00001" summary="Comit1">
+      <created>1683896132760</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683896132760</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Comit1">
+      <created>1683896157345</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683896157345</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Comit">
+      <created>1683896593079</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683896593079</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Comit">
+      <created>1683897056626</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683897056626</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Comit">
+      <created>1683897597954</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683897597954</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Comit">
+      <created>1683897890930</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683897890930</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Comit">
+      <created>1683898640168</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683898640168</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Comit">
+      <created>1683898791555</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683898791555</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Comit">
+      <created>1683900150616</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683900150616</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Comit">
+      <created>1683901255849</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1683901255850</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Comit">
+      <created>1683901377932</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1683901377932</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Comit">
+      <created>1683906901525</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1683906901525</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Comit">
+      <created>1683907181467</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1683907181467</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Comit">
+      <created>1683907446486</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1683907446486</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Comit">
+      <created>1683907460180</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1683907460180</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Comit">
+      <created>1683919813297</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1683919813297</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Comit">
+      <created>1683970875078</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1683970875078</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Comit">
+      <created>1683977863132</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1683977863132</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Comit">
+      <created>1684007327510</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1684007327510</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Comit">
+      <created>1684290272828</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1684290272828</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Comit1" />
+    <MESSAGE value="Comit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comit" />
+  </component>
+</project>
