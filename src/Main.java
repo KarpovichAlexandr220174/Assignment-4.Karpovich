@@ -24,6 +24,8 @@ public class Main {
         table.put("b", 2);
         System.out.println(table.containsKey("a"));
         System.out.println(table.containsKey("d"));
+        System.out.println(table.containsKey("ddd"));
+        System.out.println(table.containsKey("b"));
     }
 
 
